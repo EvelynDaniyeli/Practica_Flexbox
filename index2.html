@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUADROTE</title>
+    <style>
+        *
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #D1EED3; 
+}
+.contenedor
+{
+    display: flex;  
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+.cuadro
+{
+    background: linear-gradient(to bottom right, #ffaf7b,#d76d77,#3a1c71);
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+.renglon1
+{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: flex-end;
+
+}
+.renglon2
+{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: flex-start;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="renglon1">
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+        </div>
+        <div class="renglon2">
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+        </div>
+    </div>
+</body>
+</html>
